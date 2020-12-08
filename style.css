@@ -9,22 +9,16 @@
     --igloo-pink: #FF0099;
 }
 
-html, body, .container {
-    height: 100%;
-}
-
 .container {
     padding: 32px;
     display: flex;
     justify-content: center;
-    align-items: center;
     overflow-y: scroll;
     background: #263238;
 }
 
 .page {
-    width: 40%;
-    height: 100%;
+    width: 60%;
     background: white;
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 #000a12;
@@ -44,8 +38,7 @@ html, body, .container {
 }
 
 .banner {
-    height: 20%;
-    padding: 16px;
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +50,7 @@ html, body, .container {
 }
 
 .banner__text {
-    margin-bottom: 8px;;
+    margin-bottom: 8px;
     display: block;
     color: white;
     text-shadow: 0 0 4px black;
