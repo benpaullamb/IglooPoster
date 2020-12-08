@@ -9,12 +9,15 @@
     --igloo-pink: #FF0099;
 }
 
+html, body {
+    height: 100%;
+    background: #263238;
+}
+
 .container {
     padding: 32px;
     display: flex;
     justify-content: center;
-    overflow-y: scroll;
-    background: #263238;
 }
 
 .page {
