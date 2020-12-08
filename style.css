@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --igloo-pink: #FF0099;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    background: #263238;
+}
+
+.page {
+    width: 40%;
+    height: 100%;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #000a12;
+}
+
+.header {
+    padding: 16px;
+    background: var(--igloo-pink);
+}
+
+.header__title {
+    color: white;
+}
+
+.header__subtitle {
+    font-size: 16px;
+}
+
+.banner {
+    height: 20%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./igloo-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__text {
+    margin-bottom: 8px;;
+    display: block;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.banner__text--large {
+    font-size: 30px;
+}
+
+.section {
+    padding: 32px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.section--double {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section__col {
+    padding: 32px;
+}
+
+.section__title {
+    margin-bottom: 16px;
+    display: block;
+    color: var(--igloo-pink);
+    font-size: 20px;
+}
+
+.section__list {
+    padding-left: 32px;
+}
+
+.section__item {
+    margin-bottom: 16px;
+}
+
+.section__item:last-child {
+    margin-bottom: 0;
+}
